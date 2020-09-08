@@ -1,0 +1,27 @@
+
+# Compiled files
+*.py[cod]
+
+# Local stuff:
+manage.py
+*/local_settings.py
+*/migrations/
+*/__pycache__/
+oneway/api/media/
+oneway/api/migrations/
+oneway/oneway/apache/
+.vscode/
+
+# Server stuff
+oneway/static/
+html/
+oneway/.htaccess
+.htaccess
+
+# Logs
+*.log
+*.out
+
+#Zip files
+*.gz
+*.tar
